@@ -52,7 +52,7 @@ data.appendChild(mrsRight);
 
 var rmProfile = document.createElement('div');
 rmProfile.id = 'pro2';
-rmProfile.innerHTML = "Yeah, I'm a ginger with HUUUUGE ginger feet. I'm no Fred Estair, but I'm light on my feet. Come take a chance with me, and dance with me!";
+rmProfile.innerHTML = "Yeah, I'm a ginger with HUUUUGE ginger feet. I'm no Fred Astaire, but I'm light on my feet. Come take a chance with me, and dance with me!";
 profile.appendChild(rmProfile);
 
 //10. In the div id matches section, target the first div element with the class name of firstName and change Name to Wendy.
@@ -87,6 +87,21 @@ prospectAge2[1].innerHTML = 68;
  //div with class name of status
  //div with class anem of Motto
 
+//  var picLori = document.getElementsByClassName('other');
+//  picLori[2].src = "https://goo.gl/images/DXwzvZ";
+//  image.appendChild(otherBox);
+ 
+ var prospectThree = document.getElementsByClassName("firstName");
+prospectThree[2].innerHTML = 'Lori';
+
+var ageProspect3 = document.getElementsByClassName('otherAge'); 
+ageProspect3[2].innerHTML = 47;
+
+var statusProspect3 = document.getElementsByClassName('status');
+statusProspect3[2].innerHTML = 'Married';
+
+var mottoProspect3 = document.getElementsByClassName('motto');
+mottoProspect3[2].innerHTML = "Leggo my Eggo!"
  
 
 
