@@ -60,22 +60,6 @@ profile.appendChild(rmProfile);
 var prospectOne = document.getElementsByClassName("firstName");
 prospectOne[0].innerHTML = 'Wendy';
 
-
-// var titleList = document.getElementsByClassName('title');
-
-// titleList[0].innerHTML = 'FOOD';
-// titleList[0].style.color = 'white';
-
-// var fruitList = document.getElementsByClassName('fruits');
-
-// for (var i = 0; i < fruitList.length; i++) {
-//   console.log(fruitList[i]);
-
-//   if (fruitList[i].innerHTML === 'Banana') {
-//     fruitList[i].style.backgroundColor = 'yellow';
-//   }
-// }
-
 //11. In the div id matches section, target the first div element with the class name of otherAge and change Age to 48.
 
 var prospectAge = document.getElementsByClassName('otherAge');
@@ -103,8 +87,7 @@ prospectAge2[1].innerHTML = 68;
  //div with class name of status
  //div with class anem of Motto
 
- var picture = document.getElementsByClassName('other');
- picture[2].innerHTML src=https://goo.gl/images/iY9IyW;
+ 
 
 
 
